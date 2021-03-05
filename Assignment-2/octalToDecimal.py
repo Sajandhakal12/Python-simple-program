@@ -1,10 +1,11 @@
 '''
-description goes here
+
 '''
 octal_number = 0
 decimal_output = 0
-is_octal=1 
+is_octal=1  #works as a flag to detemine if input is valid octal number
 
+#checking if input is valid if not runs in a loop until valid octal is given
 while True:
     if is_octal==0:
         break
