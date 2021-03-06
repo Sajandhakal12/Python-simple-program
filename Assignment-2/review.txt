@@ -1,0 +1,27 @@
+octaltodecimal:
+problems:
+-in this program the problem was logic to conversion 
+-way of determining if the number is valid octal number or not
+solution:
+- used loop to calculate the conversion
+- used loop and check if input contains digits greater than 7 
+
+decimaltooctal
+problem:
+-logic of conversion
+solution:
+-used loop to move through numbers and done calculations
+
+randomSentenceGenerator
+problem:
+- reading word from file
+- changing list to tuples
+solution 
+- used file handling method
+- looked it up in w3 school 
+
+fileSysten
+ problem
+ -understanding code
+ solution
+ -learned about os module
