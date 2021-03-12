@@ -13,7 +13,7 @@ def greyscale(image):
             #     image.setPixel(x,y,(average,average,average))
             image.setPixel(x,y,(lum,lum,lum))
 
-
+# converts image into sepia 
 def sepia(image):
     for y in range(image.getHeight()):
         for x in range(image.getWidth()): 
