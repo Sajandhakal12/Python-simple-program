@@ -16,4 +16,25 @@ def main(filename):
     image.draw()
 
 
-main('Assignment-3/images/smokey.gif')
+'''
+created a menu to choose what type of image you want to convert
+'''
+MENU = """1 invert color image
+2 invert black in white image
+3 invert grayscale image
+"""
+
+print(MENU)
+type_image=input('Choose an option!')
+
+if type_image=='1':
+    # color gif
+    main('smokey.gif')
+elif type_image=='2':
+    # black in white gif
+    main('smokey-black.gif')
+elif type_image=='3':
+    # grey gif
+    main('smokey-grey.gif')
+else:
+    print('Invalid input')

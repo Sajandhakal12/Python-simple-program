@@ -11,7 +11,7 @@ class Student(object):
     def getName(self): #Return the student's name.
         return self._name
 
-    def setName(self,new_name): #Change student name
+    def setName(self,new_name): #Change student name    
         self._name=new_name
 
     def setScore(self, i, score): #Set the ith score.

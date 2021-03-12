@@ -44,4 +44,4 @@ def main(filename):
     image.draw()
 
 
-main('Assignment-3/images/smokey.gif')
+main('smokey.gif')
