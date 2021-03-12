@@ -1,15 +1,10 @@
 from student import Student
 s = Student("Maria", 5)
 
-print(s)
+print("the current name is: ",s.getName())
+new_name=input('Enter a new name: ')
 
-s.setScore(1, 100)
-print(s)
+s.setName(new_name)
+print("New name",s.getName())
 
-print(s.getHighScore())
 
-print(s.getAverage())
-
-print(s.getScore(1))
-
-print(s.getName())
