@@ -1,0 +1,27 @@
+invert image
+problem:
+    geting individual pixel and inverting
+solution:
+    looped width and length and fetched  rgb value of individual pixel
+    substracted 255 from r,g,b in all pixel
+
+sepia
+problem:
+    conversion to greyscale
+    conversion to sepia
+solution
+    used algorithm from slide
+
+rational number
+problem:
+    division logic
+
+solution:
+    researched on how to perform division operation in rational number
+
+student
+problem
+    mutating value
+
+solution 
+    changed value of variable
